@@ -8,7 +8,21 @@
         p{
             font-family: 'Times New Roman', Times, serif;
         }
-        nav{
+        body {
+  font-size: 16px; /* Default font size for larger screens */
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Slightly smaller font for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Smaller font for mobile phones */
+  }
+}
             
             
             
@@ -115,7 +129,8 @@
 .logo{
 color: rgb(147, 223, 223);
 padding-top: 0cap;
-max-width: 400px;
+max-width: 100%;
+    font-size: 15vw;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 
